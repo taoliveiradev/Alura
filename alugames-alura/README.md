@@ -1,8 +1,5 @@
-<h2> DogDev 🚀 </h2>
-
-<p>
   <img src="img/print/capa-alugames-alura.jpg" alt="Capa do Projeto Alugames pela Alura">
-</p>
+
 <hr>
 
 <p align="center"> <img src="img/logo.svg" alt="Logo do Site" width = "150" height = "auto"> </p>
