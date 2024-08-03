@@ -13,8 +13,15 @@
 
 ## Aprendizados
 
-- No projeto Alugames, fizemos uma confirmação ao devolver um jogo, solicitando ao usuário que confirme a devolução antes que ela seja concluída. Isso pode ajudar a evitar devoluções acidentais.
-- No projeto Alugames, criamos uma função para imprimir no console a informação sobre quantos jogos foram alugados.
+- Analisar o código de uma página HTML para entender sua estrutura e planejar o código de sua funcionalidade;
+- Recuperar elementos da página com JavaScript, com o uso das funções document.querySelector() e document.getElementById();
+- Declarar variáveis no JavaScript para armazenar elementos recuperados da página;
+- Acessar a lista de classes que um elemento da página possui, via propriedade classList;
+- Verificar se um elemento da página possui uma determinada classe CSS, via função classList.contains();
+- Remover uma classe CSS de um elemento da página, via função classList.remove();
+- Adicionar uma classe CSS a um elemento da página, via função classList.add();
+- Alterar o texto de um elemento da página, via propriedade textContent;
+- Declarar um bloco condicional if/else, para implementar a funcionalidade de alterar o status de um jogo.
 
 ## Acesse o projeto:
 
