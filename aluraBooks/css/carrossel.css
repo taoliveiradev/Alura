@@ -1,0 +1,138 @@
+@import url(style.css);
+
+.carrossel__titulo {
+  color: var(--laranja);
+  background-color: var(--branco);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination {
+  position: initial;
+  margin: 0.5rem 0;
+}
+
+.card {
+  border-radius: 0.625rem;
+  background: var(--branco);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 1rem;
+  padding: 1.5rem;
+}
+
+.card__descricao,
+.card__botoes {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card__descricao {
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.descricao__titulo {
+  color: var(--laranja);
+  font-weight: 700;
+}
+
+.descricao__titulo--livro {
+  color: var(--azul);
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin: 0.5rem 0;
+}
+
+.descricao__texto {
+  font-size: 0.875rem;
+}
+
+.botoes {
+  display: flex;
+  align-items: center;
+}
+
+.botoes__item {
+  margin: 0 0.5rem;
+}
+
+.botoes__ancora {
+  background-color: var(--laranja);
+  padding: 1rem 2.25rem;
+  color: var(--branco);
+  font-weight: 700;
+}
+
+@media screen and (min-width: 1024px) {
+  .carrossel__titulo {
+    font-size: 1.5rem;
+  }
+
+  .swiper-pagination {
+    margin: 2rem 0 3rem 0;
+  }
+
+  .swiper {
+    width: 72%;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+    top: 60%;
+  }
+
+  .card {
+    width: 50%;
+    margin: 2rem auto;
+  }
+
+  .topicos__titulo {
+    font-size: 1.25rem;
+  }
+
+  .topicos__link {
+    font-size: 1.25rem !important;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .carrossel__container {
+    display: flex;
+    gap: 2rem;
+    margin: 0 10vw 0 10vw;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  .swiper {
+    width: 80%;
+  }
+
+  .descricao__titulo {
+    font-size: 2rem;
+  }
+
+  .descricao__texto {
+    font-size: 1rem;
+  }
+}

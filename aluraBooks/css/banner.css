@@ -1,0 +1,80 @@
+@import url(style.css);
+
+.banner {
+  background: var(--azul-degrade);
+  color: var(--branco);
+  text-align: center;
+  padding: 2.5rem 2rem;
+}
+
+.banner__titulo {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.banner__texto {
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.banner__pesquisa {
+  padding: 0.625rem 1.5rem;
+  border-radius: 3.125rem;
+  background-color: transparent;
+  border: 0.0625rem solid var(--branco);
+  color: var(--branco);
+  width: 100%;
+  text-align: center;
+}
+
+.banner__pesquisa::placeholder {
+  color: var(--branco);
+  font-size: 0.875rem;
+  background: url('../img/Lupa.svg');
+  background-repeat: no-repeat;
+  background-position: 1rem;
+  margin-left: -2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner__titulo {
+    font-size: 3rem;
+  }
+
+  .banner__texto {
+    font-size: 1.5rem;
+  }
+
+  .banner__pesquisa {
+    width: 60%;
+    margin: 2rem 0;
+  }
+
+  .banner__pesquisa::placeholder {
+    background-position: 3rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .banner {
+    padding: 6rem;
+  }
+
+  .banner__pesquisa {
+    width: 24%;
+  }
+
+  .banner__pesquisa::placeholder {
+    background-position: 2rem;
+  }
+}
